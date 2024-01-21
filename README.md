@@ -68,6 +68,11 @@ model Produto {
 
 #### Referências
 https://www.youtube.com/watch?v=nuLTwqPNq-w
+
+#### Exmeplo env.
+DATABASE_URL="mysql://root:@localhost:3306/node_prisma_banco_treinamento"
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/prisma?schema=public"
+
 #### Opcionais
     npx prisma init --url mysql://root:@localhost:3306/mydb_prisma
 
