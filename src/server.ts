@@ -9,6 +9,6 @@ app.use(cors())
 
 app.use(router);
 
-const port = 4080;
+const port = 8080;
 
 app.listen(port, () => console.log("server online port: " + port ))
